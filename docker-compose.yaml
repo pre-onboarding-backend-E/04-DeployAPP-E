@@ -9,3 +9,11 @@ services:
       - ./src:/deploy-app/src
     ports:
       - 3000:3000
+
+  nginx:
+    container_name: nginx
+    image: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./nginxconf:/etc/nginx/conf.d
