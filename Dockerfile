@@ -1,3 +1,4 @@
+# NginX 뒷 단에서 동작할 Nest JS 프로젝트를 빌드한다. 
 FROM  node:16-alpine
 
 WORKDIR /deploy-app/
