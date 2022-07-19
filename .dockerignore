@@ -1,0 +1,6 @@
+node_modules
+dist# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.git
+.gitignore
+package-lock.json
