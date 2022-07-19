@@ -3,3 +3,4 @@ dist# Elastic Beanstalk Files
 .elasticbeanstalk/*
 .git
 .gitignore
+package-lock.json
