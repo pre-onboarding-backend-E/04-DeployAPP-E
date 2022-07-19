@@ -1,7 +1,9 @@
-### 4주차-Amazon EC2로 Freetier 서버 생성하기
+## 4주차-Amazon EC2로 Freetier 서버 생성하기
 
 <br />
+
 ### :bookmark: 목차
+
 - [4주차-Amazon EC2 서버 배포 💫](#4주차-amazon-ec2로-freetier-서버-생성하기)
   - [:family: 팀원](#family세상에-e런팀e팀원)
   - [:sunny: ​프로젝트 개요](#sunny-프로젝트-개요)
