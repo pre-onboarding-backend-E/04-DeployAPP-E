@@ -7,8 +7,8 @@
 - [🚀 AWS와 nginx을 이용한 서버 배포](#-aws와-nginx을-이용한-서버-배포)
   - [🔖 목차](#-목차)
     - [🌕 프로젝트 실행 및 테스트](#-프로젝트-실행-및-테스트)
-    - [🧐 배포 과정](#-배포-과정)
-    - [💿 기술스택](#-기술스택)
+    - [🧐 배포 명세](#-배포-명세)
+    - [💿 기술 스택](#-기술-스택)
 
 <br />
 
@@ -16,13 +16,26 @@
 
 **1. 실행 방법** 💡
 
+- local 실행시 명령어
+
 ```
-cd 03-BossRaid-E /
+git clone https://github.com/pre-onboarding-backend-E/04-DeployAPP-E
+git checkout taeyoung
 docker compose build
 docker compose up
 ```
 
-**2. 테스트 방법** 💡
+**2. API 테스트 방법** 💡
+
+<details>
+
+<summary style=bold>토글을 열어 확인</summary>
+<div markdown="1">
+
+![로그인](./image/postman.gif)
+
+</div>
+</details>
 
 - local
   - http://localhost/api/docs
@@ -31,22 +44,42 @@ docker compose up
 
 **3. Swagger 테스트 방법** 💡
 
+<details>
+
+<summary style=bold>토글을 열어 확인</summary>
+<div markdown="1">
+
+![로그인](./image/swagger.gif)
+
+</div>
+</details>
+
 - local
   - http://localhost/api/docs 접속
 - deployed server
   - http://3.39.69.233/api/docs 접속 - 배포 서버 링크 ( 스웨거 )
 
-#### 🧐 배포 과정
+**4. TDD** 💡
+
+- NestJS 기본 제공 jest 파일에서 리턴값만 수정
+
+#### 🧐 배포 명세
 
 ---
 
 ```
 - EC2 micro 사용
-- docker container로 hello-service와 nginx 프록시 서버를 분리하여 사용
+- docker-compose로 hello-service와 nginx 프록시 서버 컨테이너 설정
+  - hello-service
+    - 포트 : 3000
+    - Nestjs
+    - Nestjs-swagger
+  - nginx
+    - 포트 : 80
 - elastic IP를 이용해 EC2 인스턴스에 관한 IP 주소를 3.39.69.233로 고정
 ```
 
-#### 💿 기술스택
+#### 💿 기술 스택
 
 ---
 
