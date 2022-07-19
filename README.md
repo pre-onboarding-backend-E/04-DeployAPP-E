@@ -36,11 +36,7 @@
 
 ### 💾 공통 기술 스택
 
-<img alt= "icon" wide="60" height="58" src ="https://symbols.getvecta.com/stencil_89/37_nestjs-icon.a67daec196.svg">
-<img alt= "icon" wide="65" height="65" src ="https://techstack-generator.vercel.app/ts-icon.svg">
-<img alt= "icon" wide="65" height="65" src ="https://techstack-generator.vercel.app/aws-icon.svg">
-<img alt= "icon" wide="65" height="65" src ="https://techstack-generator.vercel.app/restapi-icon.svg">
-<img alt= "icon" wide="65" height="65" src ="https://techstack-generator.vercel.app/nginx-icon.svg">
+<img alt= "icon" wide="60" height="58" src ="https://symbols.getvecta.com/stencil_89/37_nestjs-icon.a67daec196.svg"><img alt= "icon" wide="65" height="65" src ="https://techstack-generator.vercel.app/ts-icon.svg"><img alt= "icon" wide="65" height="65" src ="https://techstack-generator.vercel.app/aws-icon.svg"><img alt= "icon" wide="65" height="65" src ="https://techstack-generator.vercel.app/restapi-icon.svg"><img alt= "icon" wide="65" height="65" src ="https://techstack-generator.vercel.app/nginx-icon.svg">
 
 <br />
 
